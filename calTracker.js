@@ -21,19 +21,19 @@ function calculateDailyRequirement()
 		switch(PA){
 
 			case sedentary :
-		     result = 387 − 7.31*age + 1*(10.9*weight + 660.7*height);
+		     result = 387-7.31*age + 1*(10.9*weight + 660.7*height);
 			break;
 
 			case lowactive :
-			 result = 387 − 7.31*age + 1.14*(10.9*weight + 660.7*height);
+			 result = 387-7.31*age + 1.14*(10.9*weight + 660.7*height);
 			break;
 
 			case active :
-			 return result = 387 − 7.31*age + 1.27*(10.9*weight + 660.7*height);
+			 return result = 387 -7.31*age + 1.27*(10.9*weight + 660.7*height);
 			break;
 
 			case veryactive :
-			 result = 387 − 7.31*age + 1.45*(10.9*weight + 660.7*height);
+			 result = 387- 7.31*age + 1.45*(10.9*weight + 660.7*height);
 			break;
 		}
 
@@ -44,19 +44,19 @@ function calculateDailyRequirement()
     	switch(PA){
 
     		case sedentary :
-			return result = 864 − 9.72*age + PA*(14.2*weight + 503*height);
+			return result = 864 - 9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 			case lowactive :
-			return result = 864 − 9.72*age + PA*(14.2*weight + 503*height);
+			return result = 864 -9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 			case active :
-			return result = 864 − 9.72*age + PA*(14.2*weight + 503*height);
+			return result = 864 -9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 			case veryactive :
-			return result = 864 − 9.72*age + PA*(14.2*weight + 503*height);
+			return result = 864- 9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 
