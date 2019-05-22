@@ -19,19 +19,19 @@ function calculteDailyRequirement()
 		switch(PA){
 
 			case sedentary :
-			return result = 387 − 7.31*age + 1*(10.9*weight + 660.7*height);
+		     result = 387 − 7.31*age + 1*(10.9*weight + 660.7*height);
 			break;
 
 			case lowactive :
-			return result = 387 − 7.31*age + 1.14*(10.9*weight + 660.7*height);
+			 result = 387 − 7.31*age + 1.14*(10.9*weight + 660.7*height);
 			break;
 
 			case active :
-			return result = 387 − 7.31*age + 1.27*(10.9*weight + 660.7*height);
+			 result = 387 − 7.31*age + 1.27*(10.9*weight + 660.7*height);
 			break;
 
 			case veryactive :
-			return result = 387 − 7.31*age + 1.45*(10.9*weight + 660.7*height);
+			 result = 387 − 7.31*age + 1.45*(10.9*weight + 660.7*height);
 			break;
 
             }
