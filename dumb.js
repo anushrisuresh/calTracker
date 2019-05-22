@@ -1,1 +1,1 @@
-document.body.innerHTML = IDiot;
+document.body.innerHTML = 'IDiot';
