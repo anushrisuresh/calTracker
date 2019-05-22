@@ -35,8 +35,9 @@ function calculateDailyRequirement()
 			case veryactive :
 			 result = 387 − 7.31*age + 1.45*(10.9*weight + 660.7*height);
 			break;
+		}
 
-            }
+       }     
 
     else{
 
@@ -63,6 +64,6 @@ function calculateDailyRequirement()
 
             }
         
-    }
+    
 }
 console.log(hey);
