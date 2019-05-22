@@ -14,7 +14,7 @@ let veryactive =document.getElementById("4").value;
 function calculateDailyRequirement()
 
 {
-	if(gender ===Female){
+	if(gender === 'Female'){
 
 		switch(PA){
 
@@ -53,7 +53,7 @@ function calculateDailyRequirement()
 			break;
 
 			case veryactive :
-			return result = 864 − 9.72*age + PA*14.2*weight + 503*height);
+			return result = 864 − 9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 
