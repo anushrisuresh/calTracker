@@ -11,7 +11,7 @@ let lowactive = document.getElementById("2").value;
 let active =document.getElementById("3").value;
 let veryactive =document.getElementById("4").value;
 
-function calculteDailyRequirement()
+function calculateDailyRequirement()
 
 {
 	if(gender ===Female){
