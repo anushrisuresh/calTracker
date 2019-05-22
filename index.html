@@ -9,7 +9,7 @@
 	<p>Welcome to Calorie Tracker.Set your requirements and food intake and you're already a step closer to a new and healthy lifestyle!</p>
 
 	
-	<form>
+	<form onsubmit="return false">
 
 	<p>SET YOUR DAILY CALORIE REQUIREMENT:</p>
 
@@ -54,10 +54,10 @@
 			<p>Your daily calorie requirement is :</p>
 			 <br>
 				<input type ="number" id = "result" name="result" step="0.001" >
-
+ 
 				<script src="calTracker.js" defer></script> 
 
-				<button onclick="calculateDailyRequirement()" value="Calculate daily requirement" >Calculate daily requirement</button>
+				<button  type="submit" onclick="calculateDailyRequirement()" value="Calculate daily requirement" >Calculate daily requirement</button>
 
 
 	</form>
