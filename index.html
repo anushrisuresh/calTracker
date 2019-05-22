@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Calorie Tracker</title>
-	<link href="calTracker.css">
+	<link href="calTracker.css" rel="stylesheet" type="text/css" >
+	<script src="calTracker.js" defer></script> 
 </head>
 <body>
 	<p>Welcome to Calorie Tracker.Set your requirements and food intake and you're already a step closer to a new and healthy lifestyle!</p>
@@ -12,13 +13,13 @@
 	<p>SET YOUR DAILY CALORIE REQUIREMENT:</p>
 
 	<label for="height">Height:</label>
-	<input type="number" name="height" id="height" placeholder="height in meters">
+	<input type="number" name="height" id="height" placeholder="height in meters" required>
 
 	<label for="weight">Weight:</label>
-	<input type="number" name="weight" id="weight" placeholder="weight in kilograms">
+	<input type="number" name="weight" id="weight" placeholder="weight in kilograms" required="">
 
 	<label for="age">Age:</label>
-	<input type="number" name="age" id="age" placeholder="age in years">
+	<input type="number" name="age" id="age" placeholder="age in years" required="">
 
 	<label for="gender">Gender:</label>
 		<select id="gender" name="gender">
@@ -35,12 +36,15 @@
 
   		<input type="radio" name="physical activity" id="2" value="2" class="PA">
   			<label for="2"><b>Low active:</b> adds 30 minutes per day walk at a speed of 4 miles per hour (mph)</label>
+  			<br>
 
   		<input type="radio" name="physical activity" id="3" value="3" class="PA">
   			<label for="3"><b>Active:</b> adds an hourly moderate daily exercise</label>
+  			<br>
 
   		<input type="radio" name="physical activity" id="4" value="4" class="PA">
   			<label for="4"><b>Very active:</b>  includes vigorous daily exercise</label>
+  			<br>
 
   			<input type="button" onClick="calculateDailyRequirement()" Value="Calculate daily requirement" />
 
