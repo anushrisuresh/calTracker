@@ -29,21 +29,26 @@
 		<p>Select your average level of physical activity:</p>
 		<br>
 
-		<input type="radio" id="sedentary" name="physical activity" value="sedentary">
-  			<label for="sedentary"><b>Sedentary:</b> includes only the light physical activity associated with typical day-to-day life</label>
+		<input type="radio" id="1" name="physical activity" value="1" class="PA">
+  			<label for="1"><b>Sedentary:</b> includes only the light physical activity associated with typical day-to-day life</label>
   			<br>
 
-  		<input type="radio" name="physical activity" id="low active" value="low active">
-  			<label for="low active"><b>Low active:</b> adds 30 minutes per day walk at a speed of 4 miles per hour (mph)</label>
+  		<input type="radio" name="physical activity" id="2" value="2" class="PA">
+  			<label for="2"><b>Low active:</b> adds 30 minutes per day walk at a speed of 4 miles per hour (mph)</label>
 
-  		<input type="radio" name="physical activity" id="active" value="active">
-  			<label for="active"><b>Active:</b> adds an hourly moderate daily exercise</label>
+  		<input type="radio" name="physical activity" id="3" value="3" class="PA">
+  			<label for="3"><b>Active:</b> adds an hourly moderate daily exercise</label>
 
-  		<input type="radio" name="physical activity" id="very active" value="very active">
-  			<label for="very active"><b>Very active:</b>  includes vigorous daily exercise</label>
+  		<input type="radio" name="physical activity" id="4" value="4" class="PA">
+  			<label for="4"><b>Very active:</b>  includes vigorous daily exercise</label>
+
+  			<input type="button" onClick="calculateDailyRequirement()" Value="Calculate daily requirement" />
 
 	</form>
 
+			<p>Your daily calorie requirement is : <br>
+				<span id = "result"></span>
+			</p>
 
 
 </body>
