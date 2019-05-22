@@ -27,7 +27,7 @@ function calculateDailyRequirement()
 			break;
 
 			case active :
-			 result = 387 − 7.31*age + 1.27*(10.9*weight + 660.7*height);
+			 return result = 387 − 7.31*age + 1.27*(10.9*weight + 660.7*height);
 			break;
 
 			case veryactive :
