@@ -11,7 +11,7 @@ let lowactive = document.getElementById("2").value;
 let active =document.getElementById("3").value;
 let veryactive =document.getElementById("4").value;
 
-console.log(yo);
+console.log('yo');
 
 function calculateDailyRequirement()
 
@@ -66,4 +66,4 @@ function calculateDailyRequirement()
         
     
 }
-console.log(hey);
+console.log('hey');
