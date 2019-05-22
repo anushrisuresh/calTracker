@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calorie Tracker</title>
+	<link href="calTracker.css">
+</head>
+<body>
+	<p>Welcome to Calorie Tracker.Set your requirements and food intake and you're already a step closer to a new and healthy lifestyle!</p>
+
+	<form>
+
+	<p>SET YOUR DAILY CALORIE REQUIREMENT:</p>
+
+	<label for="height">Height:</label>
+	<input type="number" name="height" id="height" placeholder="height in meters">
+
+	<label for="weight">Weight:</label>
+	<input type="number" name="weight" id="weight" placeholder="weight in kilograms">
+
+	<label for="age">Age:</label>
+	<input type="number" name="age" id="age" placeholder="age in years">
+
+	<label for="gender">Gender:</label>
+		<select id="gender" name="gender">
+			<option value="Female">Female</option>
+			<option value="Male">Male</option>
+		</select>
+	
+		<p>Select your average level of physical activity:</p>
+		<br>
+
+		<input type="radio" id="sedentary" name="physical activity" value="sedentary">
+  			<label for="sedentary"><b>Sedentary:</b> includes only the light physical activity associated with typical day-to-day life</label>
+  			<br>
+
+  		<input type="radio" name="physical activity" id="low active" value="low active">
+  			<label for="low active"><b>Low active:</b> adds 30 minutes per day walk at a speed of 4 miles per hour (mph)</label>
+
+  		<input type="radio" name="physical activity" id="active" value="active">
+  			<label for="active"><b>Active:</b> adds an hourly moderate daily exercise</label>
+
+  		<input type="radio" name="physical activity" id="very active" value="very active">
+  			<label for="very active"><b>Very active:</b>  includes vigorous daily exercise</label>
+
+	</form>
+
+
+
+</body>
+</html>
