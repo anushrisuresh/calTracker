@@ -16,6 +16,9 @@ let active =document.getElementById("3").value;
 let veryactive =document.getElementById("4").value;
 
 console.log(age);
+console.log(gender);
+console.log(PA);
+console.log(active);
 
 
 	if(gender === 'Female'){
@@ -65,6 +68,8 @@ console.log(age);
     	}
 
             }
+
+
 
             console.log(result);
 
