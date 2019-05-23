@@ -2,6 +2,7 @@
 
 
 function calculateDailyRequirement()
+{
 
 let result = document.getElementById("result").innerHTML;
 let age = document.getElementById("age").value;
@@ -16,7 +17,7 @@ let veryactive =document.getElementById("4").value;
 
 console.log(age);
 
-{
+
 	if(gender === 'Female'){
 
 		switch(PA){
