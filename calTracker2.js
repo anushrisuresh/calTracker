@@ -29,13 +29,17 @@ console.log(dFats);
 
 
 
- var total = 4*(bCarbs + lCarbs + dCarbs + bProteins + lProteins + dProteins) + 9*(bFats + lFats +dFats);
+ var total = 4*(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins) + 9*(bFats+lFats+dFats);
 
+ console.log(4*(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins));
+ console.log(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins);
+ console.log(9*(bFats+lFats+dFats));
+ console.log(bFats+lFats+dFats);
  console.log(total);
 
  document.getElementById("calorieTotal").innerHTML= total;
 
-let result = document.getElementById("output");
+let result = document.getElementById("output").value;
 
 console.log(result);
 
