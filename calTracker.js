@@ -78,4 +78,14 @@ console.log(active);
         
     
 }
-console.log('hey');
+
+
+let result_serialized = JSON.stringify(result);
+
+localStorage.setItem("result",result_serialized);
+
+console.log(localStorage);
+
+let result_deserialized = JSON.parse(localStorage.getItem("result"));
+
+console.log(result_deserialized);
