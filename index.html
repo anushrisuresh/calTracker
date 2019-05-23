@@ -67,8 +67,76 @@
 	<form onsubmit="return false">
 
 		<p>TRACK THE AMOUNT OF CALORIES YOU HAVE CONSUMED TODAY</p>
-
 		
+	<div class="breakfast">
+
+		<p>breakfast</p>
+
+		<label for="breakfast">Enter items consumed for breakfast</label>
+		<input type="textarea" name="breakfast" id="breakfast" value="breakfast" >
+
+		<label for="breakfast">Enter total carbohydrates consumed </label>
+		<input type="number" name="bCarbs" id="bCarbs" step="0.01" placeholder="in grams">
+
+		<label for="bProteins">Enter total proteins consumed</label>
+		<input type="number" name="bProteins" id="bProteins" step="0.01" placeholder="in grams">
+
+		<label for="bFats">Enter total fats consumed</label>
+		<input type="number" name="bFats" id="bFats" step="0.01" placeholder="in grams">
+
+	</div>
+
+	<div class="lunch">
+
+		<p>lunch</p>
+
+		<label for ="lunch">Enter items consumed for lunch</label>
+		<input type="textarea" name="lunch " id="lunch">
+
+		<label>Enter total carbohydrates consumed </label>
+		<input type="number" name="lCarbs" id="lCarbs" step="0.01" placeholder="in grams">
+
+		<label>Enter total proteins consumed</label>
+		<input type="number" name="lProteins" id="lProteins" step="0.01" placeholder="in grams">
+
+		<label>Enter total fats consumed</label>
+		<input type="number" name="fats" id="lFats" step="0.01" placeholder="in grams">
+    </div>
+
+    <div class="dinner">
+
+        <p>dinner</p>
+
+		<label>Enter items consumed for dinner</label>
+		<input type="textarea">
+
+		<label>Enter total carbohydrates consumed </label>
+		<input type="number" name="dCarbs" id="dCarbs" step="0.01" placeholder="in grams">
+
+		<label>Enter total proteins consumed</label>
+		<input type="number" name="dProteins" id="dProteins" step="0.01" placeholder="in grams">
+
+		<label>Enter total fats consumed</label>
+		<input type="number" name="dFats" id="dFats" step="0.01" placeholder="in grams">
+
+	</div>
+
+		<script src="calTracker2.js" defer></script> 
+
+		<button  type="submit" onclick="calculateTotalCalories()" value="Calculate calories consumed today" >Calculate calories consumed today</button>
+
+		<p>Amount of calories you have consumed today:</p>
+
+		<div id="calorieTotal" style="width: 200px; height:75px; border: 1px solid;"></div>
+
+		<div id="lessOrMore" style="width: 200px; height:75px; border: 1px solid;"></div>
+
+
+
+
+ 
+
+
 		
 	</form>
 			
