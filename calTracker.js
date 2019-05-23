@@ -4,7 +4,7 @@
 function calculateDailyRequirement()
 {
 
-let result = document.getElementById("result").innerHTML;
+
 let age = document.getElementById("age").value;
 let height = document.getElementById("height").value;
 let gender = document.getElementById("gender").value;
@@ -23,7 +23,7 @@ console.log(age);
 		switch(PA){
 
 			case sedentary :
-		     result = 387-7.31*age + 1*(10.9*weight + 660.7*height);
+		     var result = 387-7.31*age + 1*(10.9*weight + 660.7*height);
 			break;
 
 			case lowactive :
@@ -46,25 +46,27 @@ console.log(age);
     	switch(PA){
 
     		case sedentary :
-			return result = 864 - 9.72*age + PA*(14.2*weight + 503*height);
+			 result = 864 - 9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 			case lowactive :
-			return result = 864 -9.72*age + PA*(14.2*weight + 503*height);
+			 result = 864 -9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 			case active :
-			return result = 864 -9.72*age + PA*(14.2*weight + 503*height);
+			 result = 864 -9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 			case veryactive :
-			return result = 864- 9.72*age + PA*(14.2*weight + 503*height);
+			 result = 864- 9.72*age + PA*(14.2*weight + 503*height);
 			break;
 
 
     	}
 
             }
+
+             document.getElementById("result").innerHTML= result;
         
     
 }
