@@ -1,3 +1,7 @@
 body{
 	background-image:url(https://ak0.picdn.net/shutterstock/videos/24590240/thumb/4.jpg);
+	height: 100%; 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
