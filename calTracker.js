@@ -73,7 +73,7 @@ console.log(active);
 
             console.log(result);
 
-             document.getElementById("result").innerHTML= result;
+             document.getElementById("output").innerHTML= result;
 
         
     
