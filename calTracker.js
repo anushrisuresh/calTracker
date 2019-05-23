@@ -3,16 +3,16 @@
 
 function calculateDailyRequirement()
 
-var result = document.getElementById("result").innerHTML;
-var age = document.getElementById("age").value;
-var height = document.getElementById("height").value;
-var gender = document.getElementById("gender").value;
-var weight = document.getElementById("weight").value;
-var PA     =document.querySelector(".PA").value;
-var sedentary = document.getElementById("1").value;
-var lowactive = document.getElementById("2").value;
-var active =document.getElementById("3").value;
-var veryactive =document.getElementById("4").value;
+let result = document.getElementById("result").innerHTML;
+let age = document.getElementById("age").value;
+let height = document.getElementById("height").value;
+let gender = document.getElementById("gender").value;
+let weight = document.getElementById("weight").value;
+let PA     =document.querySelector(".PA").value;
+let sedentary = document.getElementById("1").value;
+let lowactive = document.getElementById("2").value;
+let active =document.getElementById("3").value;
+let veryactive =document.getElementById("4").value;
 
 console.log(age);
 
