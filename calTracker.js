@@ -1,5 +1,8 @@
 
 
+
+function calculateDailyRequirement()
+
 var result = document.getElementById("result").innerHTML;
 var age = document.getElementById("age").value;
 var height = document.getElementById("height").value;
@@ -11,9 +14,7 @@ var lowactive = document.getElementById("2").value;
 var active =document.getElementById("3").value;
 var veryactive =document.getElementById("4").value;
 
-console.log('yo');
-
-function calculateDailyRequirement()
+console.log(age);
 
 {
 	if(gender === 'Female'){
