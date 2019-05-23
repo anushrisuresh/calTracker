@@ -19,9 +19,13 @@ console.log(lFats);
 
  var total = 4*(bCarbs + lCarbs + dCarbs + bProteins + lProteins + dProteins) + 9*(bFats + lFats +dFats);
 
+ console.log(total);
+
  document.getElementById("calorieTotal").innerHTML= total;
 
-let result = document.getElementById("output")
+let result = document.getElementById("output");
+
+console.log(result);
 
 if(total>result){
 	document.getElementById("lessOrMore").innerHTML= 'You have exceeded your calorie limit by' + (total-result) + '. You might want to go get some exercise :p';
