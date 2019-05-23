@@ -14,8 +14,20 @@ function calculateTotalCalories()
 
 
 console.log(bCarbs);
-console.log(dProteins);
+console.log(bProteins);
+console.log(bFats);
+
+console.log(lCarbs);
+console.log(lProteins);
 console.log(lFats);
+
+console.log(dCarbs);
+console.log(dProteins);
+console.log(dFats);
+
+
+
+
 
  var total = 4*(bCarbs + lCarbs + dCarbs + bProteins + lProteins + dProteins) + 9*(bFats + lFats +dFats);
 
@@ -31,7 +43,7 @@ if(total>result){
 	document.getElementById("lessOrMore").innerHTML= 'You have exceeded your calorie limit by' + (total-result) + '. You might want to go get some exercise :p';
 
 }
-else if(total = result){
+else if(total === result){
 	document.getElementById("lessOrMore").innerHTML= 'Your calorie consumption is perfect!';
 }
 else{
