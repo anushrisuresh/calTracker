@@ -66,7 +66,10 @@ console.log(age);
 
             }
 
+            console.log(result);
+
              document.getElementById("result").innerHTML= result;
+
         
     
 }
