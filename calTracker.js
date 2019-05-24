@@ -121,13 +121,13 @@ console.log(dFats);
 
 
 
- var total = 4*(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins) + 9*(bFats+lFats+dFats);
+ var total = 4*(0+bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins) + 9*(0+bFats+lFats+dFats);
  
- console.log(bCarbs+bProteins);
- console.log(4*(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins));
- console.log(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins);
- console.log(9*(bFats+lFats+dFats));
- console.log(bFats+lFats+dFats);
+ console.log(0+bCarbs+bProteins);
+ console.log(4*(0+bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins));
+ console.log(0+bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins);
+ console.log(9*(0+bFats+lFats+dFats));
+ console.log(0+bFats+lFats+dFats);
  console.log(total);
 
  document.getElementById("calorieTotal").innerHTML= total;
