@@ -32,7 +32,7 @@ console.log(dFats);
  var total = 4*(parseFloat(bCarbs)+parseFloat(lCarbs)+parseFloat(dCarbs)+parseFloat(bProteins)+parseFloat(lProteins)+parseFloat(dProteins)) + 9*(parseFloat(bFats)+parseFloat(lFats)+parseFloat(dFats));
  
  console.log(parseFloat(bCarbs)+parseFloat(bProteins));
- console.log(4*(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins));
+ console.log(4*(parseFloat(bCarbs)+parseFloat(lCarbs)+parseFloat(dCarbs)+parseFloat(bProteins)+parseFloat(lProteins)+parseFloat(dProteins)));
  console.log(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins);
  console.log(9*(bFats+lFats+dFats));
  console.log(bFats+lFats+dFats);
