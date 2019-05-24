@@ -28,8 +28,8 @@ console.log(dFats);
 
 
 
-
- var total = 4*(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins) + 9*(bFats+lFats+dFats);
+(
+ var total = 4*(parseInt(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins)) + 9*(parseInt(bFats+lFats+dFats));
  
  console.log(bCarbs+bProteins);
  console.log(4*(bCarbs+lCarbs+dCarbs+bProteins+lProteins+dProteins));
