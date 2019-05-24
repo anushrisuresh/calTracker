@@ -3,15 +3,21 @@
 <head>
 	<title>Calorie Tracker</title>
 	<link href="calTracker.css" rel="stylesheet" type="text/css" >
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Slabo+13px" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700|Playfair+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Titillium+Web" rel="stylesheet">
 	
 </head>
 <body>
-	<p>Welcome to Calorie Tracker.Set your requirements and food intake and you're already a step closer to a new and healthy lifestyle!</p>
+	
+	<p class="intro" id="first">Welcome to Calorie Tracker.Set your requirements and food intake and you're already a step closer to a new and healthy lifestyle!</p>
 
 <div class="form1">
 	<form onsubmit="return false">
 
-	<p>SET YOUR DAILY CALORIE REQUIREMENT:</p>
+	<p class="intro" class="head">SET YOUR DAILY CALORIE REQUIREMENT:</p>
+
 
 	<label for="height">Height:</label>
 	<input type="number" name="height" id="height" placeholder="height in meters" step="0.1" required>
@@ -51,26 +57,30 @@
 
 	
 
-			<p>Your daily calorie requirement is :</p>
+			<p class="title"><b>Your daily calorie requirement is :</b></p>
 			 <br>
 				<div id="output" style="width: 200px; height:75px; border: 1px solid;"></div>
+				<br>
  
 				<script src="calTracker.js" defer></script> 
 
 				<button  type="submit" onclick="calculateDailyRequirement()" value="Calculate daily requirement" >Calculate daily requirement</button>
+				<br>
 
 
 	</form>
 </div>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLe4Yj1Ios5v0y8fEJAbIZ9g7x4ntH0shWdEkEMskAxS654oQjiQ" align="middle">
+		<br>
 
 <div class="form2">
 	<form onsubmit="return false">
 
-		<p>TRACK THE AMOUNT OF CALORIES YOU HAVE CONSUMED TODAY</p>
+		<p id="track" class="head">TRACK THE AMOUNT OF CALORIES YOU HAVE CONSUMED TODAY</p>
 		
 	<div class="breakfast">
 
-		<p><b>breakfast</b></p>
+		<p id="bfast" class="meal"><b>breakfast</b></p>
 		<br>
 
 		<label for="breakfast">Enter items consumed for breakfast</label>
@@ -94,7 +104,7 @@
 	<div class="lunch">
 		<br>
 
-		<p><b>lunch</b></p>
+		<p id="lnch" class="meal"><b>lunch</b></p>
 		<br>
 
 		<label for ="lunch">Enter items consumed for lunch</label>
@@ -116,7 +126,7 @@
 
     <div class="dinner">
 
-        <p><b>dinner</b></p>
+        <p class="meal" id="dnnr"><b>dinner</b></p>
         <br>
 
 		<label>Enter items consumed for dinner</label>
@@ -141,11 +151,11 @@
 
 		<button  type="submit" onclick="calculateTotalCalories()" value="Calculate calories consumed today" >Calculate calories consumed today</button>
 
-		<p><b>Amount of calories you have consumed today:</b></p>
+		<p class="title"><b>Amount of calories you have consumed today:</b></p>
 
-		<div id="calorieTotal" style="width: 200px; height:75px; border: 1px solid;"></div>
+		<div id="calorieTotal" style="width: 200px; height:75px; "></div>
 
-		<div id="lessOrMore" style="width: 200px; height:75px; border: 1px solid;"></div>
+		<div id="lessOrMore" style="width: 200px; height:75px; "></div>
 
 
 

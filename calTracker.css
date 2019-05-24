@@ -1,7 +1,44 @@
 body{
-	background-image:url(https://ak0.picdn.net/shutterstock/videos/24590240/thumb/4.jpg);
-	height: 100%; 
-	 background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-color:white;
+
+  text-align: center;
+}
+#output{
+	text-align:center;
+	display: inline-block
+}
+#bfast{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYvMlFdPpjKz7-UNtH0SMWIxZ5EJ9QRkM4AboDEHNyl53N-rd8Iw);
+}
+#lnch{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa_fJ2eMFu0hJ0ihOOL5pRfKE8v5rR3FFIvfUmYmVLZAMxGZOG_w)
+}
+#dnnr{
+	background-image: url(http://statelywallpaper.com/wp-content/uploads/2018/08/Limon-Green-Fruits-Hd-5K-768x480.jpg);
+}
+.meal,#first{
+	 font-family: 'Dosis', Sans-Serif;
+     font-size: 48px;
+}
+.intro{
+	background-image: url(https://hdqwalls.com/download/swimming-pool-water-dt-1920x1080.jpg);
+}
+#calorieTotal,#lessOrMore{
+	text-align:center;
+	display: inline-block
+}
+#track{
+	background-color: #9ACD32;
+}
+.head{
+	font-family: 'Ruda', Sans-Serif;
+    font-size: 48px;
+}
+.title{
+	font-family: 'Slabo 13px', Serif;
+font-size: 48px;
+}
+form{
+	font-family: 'PT Sans', Sans-Serif;
+ font-size: 46px;
 }
