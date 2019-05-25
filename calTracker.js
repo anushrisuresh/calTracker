@@ -82,10 +82,10 @@ console.log(active);
 
 let result_serialized = JSON.stringify(result);
 
-localStorage.setItem("result",result_serialized);
+localStorage.setItem("dailyCalorieRequirement",result_serialized);
 
 
-let result_deserialized = JSON.parse(localStorage.getItem("result"));
+let result_deserialized = JSON.parse(localStorage.getItem("dailyCalorieRequirement"));
 
 console.log(result_deserialized);
 }

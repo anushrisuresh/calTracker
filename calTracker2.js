@@ -40,6 +40,21 @@ console.log(dFats);
 
  document.getElementById("calorieTotal").innerHTML= total;
 
+ //saving to localStorage
+ let total_serialized = JSON.stringify(total);
+
+localStorage.setItem("caloriesConsumedToday",total_serialized);
+
+
+let total_deserialized = JSON.parse(localStorage.getItem("caloriesConsumedToday"));
+
+console.log(total_deserialized);
+
+
+
+
+ //alert part
+
 let result = document.getElementById("output").value;
 
 console.log(result);
