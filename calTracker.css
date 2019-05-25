@@ -24,6 +24,7 @@ body{
 .meal,#first{
 	 font-family: 'Dosis', Sans-Serif;
      font-size: 40px;
+     color:black;
 }
 .intro{
 	background-image: url(https://hdqwalls.com/download/swimming-pool-water-dt-1920x1080.jpg);
@@ -34,21 +35,28 @@ body{
 }
 #track{
 	background-color: #9ACD32;
+	color:black;
 }
 .head{
 	font-family: 'Ruda', Sans-Serif;
     font-size: 40px;
+    color:black;
 }
 .title{
 	font-family: 'Slabo 13px', Serif;
 font-size: 40px;
+color:black;
 }
 form{
 	font-family: 'PT Sans', Sans-Serif;
  font-size: 36px;
+ color:brown;
 }
 .last{
 	background-color: #95ba6c;
+}
+#p_activity{
+	color:black;
 }
 @media only screen and (max-width:600px){
 	body{
